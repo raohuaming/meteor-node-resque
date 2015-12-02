@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-resque": {
+      "version": "0.16.2",
+      "dependencies": {
+        "redis": {
+          "version": "0.12.1"
+        },
+        "async": {
+          "version": "1.2.1"
+        }
+      }
+    }
+  }
+}
