@@ -1,7 +1,7 @@
 /* global Package, Npm */
 Package.describe({
   name: 'huaming:node-resque',
-  version: '0.16.2',
+  version: '1.1.3',
   // Brief, one-line summary of the package.
   summary: 'This a wrap version for TaskRabit node-resque',
   // URL to the Git repository containing the source code for this package.
@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'node-resque': '0.16.2'
+  'node-resque': '1.1.3'
 });
 
 Package.onUse(function(api) {
